@@ -31,12 +31,12 @@ $ /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.
 
 Start the span panel program
 ```bash
-$ python3 span_panel.py
+$ python3 ./span-panel/span_panel.py
 ```
 
 Start the switch program
 ```bash
-$ python3 vsp.py
+$ python3 ./very-smart-plug/vsp.py
 ```
 
 To manually send data to a particular topic using CLI command:
