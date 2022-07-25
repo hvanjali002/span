@@ -25,15 +25,23 @@ Usage and Running the program:
 2. Run each of the programs in different tabs/terminal windows
 
 To start the MQTT broker locally, run
+```bash
 $ /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+```
 
 Start the span panel program
+```bash
 $ python3 span_panel.py
+```
 
 Start the switch program
+```bash
 $ python3 vsp.py
+```
 
 To manually send data to a particular topic using CLI command:
-mqtt pub -t Plug_State -m "1"
+```bash
+$ mqtt pub -t Plug_State -m "1"
+```
 
 
