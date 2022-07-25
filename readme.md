@@ -8,13 +8,13 @@ Below instructions is for Mac users
 
 ## Wiki
 
-####span_panel.py
+#### span_panel.py
 This is a consumer client(localhost:1883) which is subscribed to
 - Energy usage readings - The readings are aggregated and displayed
 - Toggle vsp switch state every 5 seconds
 - Subscribed to Energy_Usage topic
 
-####vsp.py
+#### vsp.py
 This is a producer client(localhost:1883) which
 - Sends out energy consumption on 'Energy_Usage' mqtt topic every 1 sec
 - Subscribed to Plug_State topic and displays the state whenever it changes
